@@ -1,0 +1,15 @@
+title = "My First Quest"
+author = "Jonathan"
+repo = "quest-repo"
+
+[[stages]]
+label = "stage-1"
+description = "This is the first stage of the quest."
+
+[[stages]]
+label = "stage-2"
+description = "This is the second stage of the quest."
+
+read-only = ["/path/to/file1", "/path/to/file2"]
+
+final = { key = "value" }
